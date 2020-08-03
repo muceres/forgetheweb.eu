@@ -1,10 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Hind:300, 500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400, 400italic);
-@import url(
-  http://fonts.googleapis.com/css?family=Cormorant+Garamond:400,
-  400bold
-);
 @import url(https://fonts.googleapis.com/css?family=Nunito:400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 400light);
+@import url(https://fonts.googleapis.com/css?family=Gothic+A1:400);
+
+a:hover {
+  color: #4285f4;
+}
 
 p,
 h1,
@@ -12,8 +12,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  color: #343333;
+h6,
+div {
+  color: #fff;
 }
 
 html,
@@ -21,7 +22,7 @@ body,
 textarea,
 button,
 input {
-  font-family: "Nunito Regular", "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -30,12 +31,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito Regular", "Hind", sans-serif;
+  font-family: "Open Sans", "Nunito", sans-serif;
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.42;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+  letter-spacing: 0.5px;
 }
 
 h1 {
@@ -45,7 +51,16 @@ h1 {
 
 h2 {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 300;
+}
+
+h1.logo {
+  font-family: "Gothic A1", sans-serif;
+  letter-spacing: 2px;
+}
+
+h1.title {
+  letter-spacing: 2px;
 }
 
 h2.small-heading {
@@ -54,91 +69,102 @@ h2.small-heading {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
+  color: #4285f4;
 }
 
 body {
-  overflow-x: hidden;
-  background-color: #1a1b23;
+  overflow: auto;
+  background-color: #191a23;
+  height: 100%;
+  opacity: 0.8;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.explicit-link {
+  box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 span {
   color: #4285f4;
 }
 
+.space-block {
+  margin-top: 60px;
+}
+
 .home-page {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
+  height: 100%;
+  overflow: auto;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2000;
 }
 
-.introduction,
+.main,
 .menu {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
-.introduction {
+.main {
   float: left;
-  padding: 0;
-  overflow: hidden;
+  padding: 0px 15px 15px 15px;
+  overflow: visible;
   position: relative;
 }
 
-.introduction img {
+/* .main img {
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
-.mask {
-  width: 100%;
-  height: 100%;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #1a1b23;
-}
-
-.intro-content {
+.main-content {
   position: relative;
   z-index: 10;
-  top: 50%;
   opacity: 0.9;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
-.intro-content h1 {
+.main-content h1 {
   color: #fff;
   text-align: center;
 }
 
-.intro-content h1 span,
-.main-heading h1 span {
+.main-content h1 span {
   color: #4285f4;
 }
 
-.intro-content h2 {
+.main-content h2 {
   color: #fff;
   text-align: center;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 2em;
+}
+
+.main-projects {
+  top: 5%;
+}
+
+.main-home {
+  top: 30%;
 }
 
 .social-media {
   font-size: 25px;
   text-align: center;
-  margin-top: 50px;
 }
 
 .social-media a {
@@ -152,6 +178,41 @@ span {
   color: #4285f4;
 }
 
+.nav-link {
+  margin: 0px 3px 0px 30px;
+}
+
+.nav-link:hover {
+  color: #4285f4;
+  border-bottom: 1px solid transparent;
+  border-bottom-color: #3273dc;
+}
+
+.active {
+  color: #4285f4;
+}
+
+.active:hover {
+  color: #4285f4;
+  border: none;
+  border-bottom-color: #3273dc;
+}
+
+.bl {
+  border: 1px solid blue;
+}
+
+.half {
+  width: 50%;
+}
+
+hr {
+  background-color: #f5f5f5;
+  border: none;
+  display: block;
+  height: 1px;
+  opacity: 0.1;
+}
 /* Responsive css*/
 
 @media only screen and (max-width: 992px) {
@@ -178,11 +239,14 @@ span {
   .content-container {
     left: 0;
   }
+}
 
-  .main-heading {
-    top: 50%;
-    transform: translateY(-50%);
-  }
+.left {
+  text-align: left !important;
+}
+
+.center {
+  text-align: center !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -196,10 +260,6 @@ span {
 
   .heading h3 {
     font-size: 13px;
-  }
-
-  .main-heading h1:after {
-    width: 250px;
   }
 
   .story-content div {
@@ -227,47 +287,17 @@ span {
     display: none;
   }
 
-  .google-map {
-    height: 500px;
+  .space-block {
+    margin-top: 40px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .intro-content h1 {
+  .main-content h1 {
     font-size: 30px;
   }
 
-  .intro-content h2 {
+  .main-content h2 {
     font-size: 20px;
-  }
-
-  .main-heading {
-    padding-left: 20px;
-  }
-
-  .main-heading h1:after {
-    height: 3px;
-  }
-
-  .image-container {
-    height: 300px;
-  }
-
-  .story-content div a {
-    display: block;
-    float: none;
-    margin: 5px;
-  }
-
-  .contact-form button {
-    width: 100%;
-  }
-
-  .project .buttons a {
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    margin: 0;
-    font-size: 12px;
   }
 }
