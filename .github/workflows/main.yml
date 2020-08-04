@@ -27,6 +27,10 @@ jobs:
     - name: Clean folder
       run: rm -rf README.md .git
 
+
+    - name: Create dist folder
+      run: mv * dist
+
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.5
       with:
