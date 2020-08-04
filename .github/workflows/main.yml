@@ -25,12 +25,7 @@ jobs:
       run: echo Hello, world!
 
     - name: Clean folder
-      run: |
-        ls -lsa
-        mv saxjst.com dist
-        cd dist
-        rm -rf README.md .git
-        cd ..
+      run: rm -rf README.md .git
 
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.5
