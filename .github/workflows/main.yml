@@ -29,7 +29,9 @@ jobs:
 
 
     - name: Create dist folder
-      run: mkdir dist && mv * dist
+      run: |
+        mkdir dist
+        ls -A | grep -v "dist" | xargs cp -rt dist
 
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.5
