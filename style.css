@@ -260,6 +260,10 @@ hr {
   text-align: center !important;
 }
 
+.right {
+  text-align: right !important;
+}
+
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 36px;
