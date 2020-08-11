@@ -264,6 +264,20 @@ hr {
   text-align: right !important;
 }
 
+/* Carousel */
+
+blockquote,  {
+    border-left: none;
+    margin: 0;
+}
+blockquote .citation:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+    color: #4285f4;
+}
+
 @media only screen and (max-width: 768px) {
   h1 {
     font-size: 36px;
