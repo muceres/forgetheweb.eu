@@ -1,0 +1,29 @@
+{
+  "name": "saxjst.com",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/366a7436-480c-4cd2-a6eb-4c02f0459f5b/deploy-status)](https://app.netlify.com/sites/pensive-johnson-8e7d33/deploys) > Personal website",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saxjst/saxjst.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saxjst/saxjst.com/issues"
+  },
+  "homepage": "https://github.com/saxjst/saxjst.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0",
+    "minify": "^5.1.1"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.3"
+  }
+}

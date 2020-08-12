@@ -1,0 +1,27 @@
+---
+layout: base.njk
+title: Contact | Samuel JOSET
+current: contact
+---
+        {% include "navbar.njk" %}
+
+        <div class="main-content main-projects">
+          <div class="container space-block">
+            <div class="row">
+              <div class="col-sm-8 offset-sm-2">
+                <h2 class="title left">Contact</h2>
+
+                <p>Got something you want to talk about? Just email me and I get back to you as soon as I can.</p>
+
+                <p class="center">
+                  <a href="mailto:{{ infos.me.email }}" title="mail" target="_blank" class="explicit-link center">
+                    <span style="font-size: 30px">{{ infos.me.email }}</span>
+                  </a>
+                </p>
+              </div>
+
+                  {% include "social-media.njk" %}
+              </div>
+            </div>
+          </div>
+        </div>

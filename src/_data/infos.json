@@ -1,0 +1,20 @@
+{
+  "title": "Your Blog Name",
+  "url": "https://example.com/",
+  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "feed": {
+    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "me": {
+    "name": "Samuel JOSET",
+    "email": "samuel@saxjst.com",
+    "url": "https://example.com/about-me/",
+    "linkedin": "https://fr.linkedin.com/in/samueldjoset",
+    "github": "https://github.com/saxjst",
+    "resume": "https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing",
+    "blog": "https://blog.saxjst.com"
+  }
+}
