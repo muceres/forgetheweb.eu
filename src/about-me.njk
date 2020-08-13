@@ -1,10 +1,10 @@
 ---
-layout: base.njk
+layout: layouts/base.njk
 title: About me | Samuel JOSET
 current: about-me
 ---
 
-        {% include "navbar.njk" %}
+        {% include "partials/navbar.njk" %}
 
         <div class="main-content main-projects">
           <div class="container space-block">
@@ -45,7 +45,7 @@ current: about-me
               </div>
 
                 {% set list=references %}
-                {% include "image-list.njk" %}
+                {% include "partials/image-list.njk" %}
 
               <div class="col-sm-12">
                 <h2 class="title left">Testimonials</h2>
@@ -130,7 +130,7 @@ current: about-me
 
 
 
-                  {% include "social-media.njk" %}
+                  {% include "partials/social-media.njk" %}
 
 
             </div>

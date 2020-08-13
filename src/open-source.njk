@@ -1,9 +1,9 @@
 ---
-layout: base.njk
+layout: 'layouts/base.njk'
 title: Open Source | Samuel JOSET
 current: open-source
 ---
-        {% include "navbar.njk" %}
+        {% include "partials/navbar.njk" %}
 
         <div class="main-content main-projects">
           <div class="container space-block">
@@ -15,7 +15,7 @@ current: open-source
               </div>
 
                 {% set list=oss %}
-                {% include "simple-list.njk" %}
+                {% include "partials/simple-list.njk" %}
 
               <div class="col-sm-12">
                 <p class="center">
@@ -24,7 +24,7 @@ current: open-source
                 </p>
               </div>
 
-                  {% include "social-media.njk" %}
+                  {% include "partials/social-media.njk" %}
 
             </div>
           </div>
