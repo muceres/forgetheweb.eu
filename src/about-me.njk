@@ -14,7 +14,7 @@ current: about-me
                 <br />
               </div>
               <div class="col-sm-3">
-                <img class="card-img-top" src="/assets/images/me/me-002.jpg" alt="Card image cap">
+                <img class="card-img-top" src="{{ me.image }}" alt="Card image cap">
                 <br />
                 <br />
 
@@ -32,7 +32,7 @@ current: about-me
 
               <div class="col-sm-12">
                 <p class="center">
-                  <a href="https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing" class="btn btn-primary">Download my CV</a>
+                  <a href="{{ me.resume }}" class="btn btn-primary">Download my CV</a>
                 </p>
               </div>
 
@@ -44,58 +44,8 @@ current: about-me
                 <br />
               </div>
 
-
-              <div class="container">
-                <div class="row align-items-center justify-content-around">
-                  <div class=" col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/tf1-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/canal-plus-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/bouygues-logo.svg" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/veepee-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                </div>
-                <br />
-                <div class="row align-items-center justify-content-around">
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/mektoube-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/epitech-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/webacadémie-logo.png" alt="Card image cap">
-                    <br />
-                    <br />
-                  </div>
-                  <div class="col-sm-2">
-                    <img class="card-img-top" src="/assets/images/corporations/trusk-logo.svg" alt="Card image cap">
-                    <br />
-                    <br />
-
-                    <!-- <img class="card-img-top" src="assets/images/corporations/trusk-logo.png" alt="Card image cap"> -->
-                  </div>
-                </div>
-              </div>
-
-
+                {% set list=references %}
+                {% include "image-list.njk" %}
 
               <div class="col-sm-12">
                 <h2 class="title left">Testimonials</h2>
@@ -103,10 +53,6 @@ current: about-me
               </div>
 
               <div class="col-sm-10 offset-sm-1">
-
-
-
-
 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -178,14 +124,6 @@ current: about-me
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
-
-
-
-
-
-
-
-
 
 
               </div>
