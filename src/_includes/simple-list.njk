@@ -1,0 +1,19 @@
+
+
+
+
+
+{% for item in list %}
+<div class="project col-sm-6">
+  <h3>
+    <a class="explicit-link blue" href="{{ item.link }}">
+      {{ item.title }}
+    </a>
+
+    {% for tag in item.tags %}
+    <span class="badge badge-pill badge-info" style="font-size: 12px;">{{ tag }}</span>
+    {% endfor %}
+  </h3>
+  {{ item.subtitle }}
+</div>
+{% endfor %}
