@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/saxjst/saxjst.com.git"
   },
-  "keywords": [],
+  "keywords": [
+    "static",
+    "site",
+    "jamstack"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
