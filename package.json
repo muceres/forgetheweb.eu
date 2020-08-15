@@ -6,8 +6,7 @@
   "scripts": {
     "minify:html": "mv dist/assets assets && npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true  --input-dir dist --output-dir dist && mv assets dist/assets",
     "build": "npx @11ty/eleventy && npm run minify:html",
-    "serve": "npx @11ty/eleventy --serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "npx @11ty/eleventy --serve"
   },
   "repository": {
     "type": "git",
@@ -16,10 +15,10 @@
   "keywords": [
     "static",
     "site",
-    "eleventy"
+    "eleventy",
     "jamstack"
   ],
-  "author": "",
+  "author": "saxjst",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/saxjst/saxjst.com/issues"
