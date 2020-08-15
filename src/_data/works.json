@@ -1,0 +1,65 @@
+[
+{
+  "title": "Quard de lait",
+  "subtitle": "Web development",
+  "img": "/assets/images/works/qdl-001.png",
+  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "buttonDesc": "Check the website",
+  "buttonLink": "https://quartdelait.com/",
+  "tags": ["Wordpress"]
+},
+{
+  "title": "Mainbase.io",
+  "subtitle": "Implementing cryptocurrency exchanges API and various metrics",
+  "img": "/assets/images/works/mainbase-001.png",
+  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "buttonDesc": "Check the website",
+  "buttonLink": "https://www.mainbase.io/",
+  "tags": ["Django", "Python"]
+},
+{
+  "title": "Epitech - European Institute of Information Technology",
+  "subtitle": "Teaching 3rd grade students",
+  "img": "/assets/images/works/epitech-001.jpg",
+  "content": "There was a time when it was my school too. I just love teaching there.",
+  "buttonDesc": "Read the article",
+  "buttonLink": "https://saxjst.com/",
+  "tags": ["Teaching"]
+},
+{
+  "title": "This card is empty !",
+  "subtitle": "Want to work together ?",
+  "img": "/assets/images/works/empty-001.jpg",
+  "content": ".",
+  "buttonDesc": "Here we go !",
+  "buttonLink": "https://saxjst.com/contact",
+  "tags": []
+},
+{
+  "title": "Bouygues - NFC wristbands on site",
+  "subtitle": "Data centralization and interfacing with devices using NFC wristbands",
+  "img": "/assets/images/works/bouygues-001.png",
+  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "buttonDesc": "See the source code",
+  "buttonLink": "https://github.com/saxjst/desktop-nfc-reader",
+  "tags": ["NodeJS", "IOT"]
+},
+{
+  "title": "TF1 - Koh-Lanta VR",
+  "subtitle": "VR game development",
+  "img": "/assets/images/works/koh-lanta-vr-001.jpg",
+  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "buttonDesc": "Read the article",
+  "buttonLink": "https://saxjst.com/contact",
+  "tags": ["VR", "HTC Vive"]
+},
+{
+  "title": "Mektoube",
+  "subtitle": "Mobile web app development",
+  "img": "/assets/images/works/mektoube-001.png",
+  "content": "I was always curious to know what was behind dating app. Sure I wasn't disapointed !",
+  "buttonDesc": "Check the web app",
+  "buttonLink": "https://mektoube.fr/",
+  "tags": ["React"]
+}
+]
