@@ -30,7 +30,7 @@
   "title": "This card is empty !",
   "subtitle": "Want to work together ?",
   "img": "/assets/images/works/empty-002.jpg",
-  "content": ".",
+  "content": "",
   "buttonDesc": "Here we go !",
   "buttonLink": "https://saxjst.com/contact",
   "tags": []
@@ -40,7 +40,7 @@
   "subtitle": "Data centralization and interfacing with devices using NFC wristbands",
   "img": "/assets/images/works/bouygues-002.png",
   "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
-  "buttonDesc": "See the source code",
+  "buttonDesc": "See the NFC reader source code",
   "buttonLink": "https://github.com/saxjst/desktop-nfc-reader",
   "tags": ["NodeJS", "IOT"]
 },
@@ -48,16 +48,16 @@
   "title": "TF1 - Koh-Lanta VR",
   "subtitle": "VR game development",
   "img": "/assets/images/works/koh-lanta-vr-002.jpg",
-  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "content": "",
   "buttonDesc": "Read the article",
-  "buttonLink": "https://saxjst.com/contact",
+  "buttonLink": "https://www.lci.fr/high-tech/vivatech-2017-esport-realite-virtuelle-et-innovations-au-lab-tf1-2052491.html",
   "tags": ["VR", "HTC Vive"]
 },
 {
   "title": "Mektoube",
   "subtitle": "Mobile web app development",
   "img": "/assets/images/works/mektoube-002.png",
-  "content": "I was always curious to know what was behind dating app. Sure I wasn't disapointed !",
+  "content": "I was always curious to know what was behind dating apps. Sure I wasn't disapointed !",
   "buttonDesc": "Check the web app",
   "buttonLink": "https://mektoube.fr/",
   "tags": ["React"]
