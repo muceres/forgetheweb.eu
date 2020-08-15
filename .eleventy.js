@@ -2,7 +2,7 @@ const fs = require("fs");
 
 module.exports = eleventyConfig => {
   // Copy our static assets to the output folder
-  // eleventyConfig.addPassthroughCopy('src/assets');
+  eleventyConfig.addPassthroughCopy('src/assets');
 
   // Display 404 page in BrowserSnyc
   eleventyConfig.setBrowserSyncConfig({
