@@ -27,11 +27,13 @@ jobs:
     - name: Clean folder
       run: rm -rf README.md .git
 
+    - name: Generate website
+      run: npm install && npm run build
 
-    - name: Create dist folder
-      run: |
-        mkdir dist
-        ls -A | grep -v "dist" | xargs cp -rt dist
+    # - name: Create dist folder
+    #   run: |
+    #     mkdir dist
+    #     ls -A | grep -v "dist" | xargs cp -rt dist
 
     - name: Deploy to Netlify
       uses: nwtgck/actions-netlify@v1.1.5
@@ -47,4 +49,3 @@ jobs:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
       timeout-minutes: 1
-
