@@ -3,7 +3,7 @@
   "title": "Quard de lait",
   "subtitle": "Web development",
   "img": "/assets/images/works/qdl-002.png",
-  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "content": "",
   "buttonDesc": "Check the website",
   "buttonLink": "https://quartdelait.com/",
   "tags": ["Wordpress"]
@@ -12,7 +12,7 @@
   "title": "Mainbase.io",
   "subtitle": "Implementing cryptocurrency exchanges API and various metrics",
   "img": "/assets/images/works/mainbase-002.png",
-  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "content": "",
   "buttonDesc": "Check the website",
   "buttonLink": "https://www.mainbase.io/",
   "tags": ["Django", "Python"]
@@ -39,7 +39,7 @@
   "title": "Bouygues - NFC wristbands on site",
   "subtitle": "Data centralization and interfacing with devices using NFC wristbands",
   "img": "/assets/images/works/bouygues-002.png",
-  "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
+  "content": "",
   "buttonDesc": "See the NFC reader source code",
   "buttonLink": "https://github.com/saxjst/desktop-nfc-reader",
   "tags": ["NodeJS", "IOT"]
