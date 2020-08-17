@@ -56,12 +56,17 @@ current: about-me
               </div>
 
               <div class="col-sm-10 offset-sm-1">
-
-
                 {% include "partials/carousel.njk" %}
-
               </div>
 
+
+              <div class="col-sm-12">
+                <h2 class="title left">Tech Stack</h2>
+                <br />
+              </div>
+
+                {% set list=stack %}
+                {% include "partials/image-list.njk" %}
 
 
                   {% include "partials/social-media.njk" %}
