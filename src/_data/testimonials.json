@@ -1,18 +1,22 @@
 [
   {
     "quote": "Samuel is autonomous, professional, and has undeniable technical skills. His relentless search for patterns and best practices has sparked some enlightening debates that continuously improved our stack. He does not hesitate to ask for feedback and is always willing to help his coworkers. As his Techlead at Trusk, it was a pleasure having Samuel with us.",
-    "people": "Quentin Forand - Tech Lead at Trusk"
+    "people": "Quentin Forand",
+    "job": "Tech Lead at Trusk"
   },
   {
     "quote": "Samuel supported me in supervising the Software Development module for 3rd year students at Epitech Paris. His help was very precious thanks to his seriousness, knowledge and his pedagogy. I had only positive feedback from students concerning him, he was able to guide and advise them in a very relevant way on issues regarding sofware architecture, work methodology and development. I would work with him again in the future with great pleasure! Thank you Samuel.",
-    "people": "Amine Mohamadi - Pedagogical & Technical manager at Epitech"
+    "people": "Amine Mohamadi",
+    "job": "Pedagogical manager at Epitech"
   },
   {
     "quote": "Samuel is very profesionnal. He was able to quikly understand our needs and find the right solutions for us. We are very satisfied of his work and will work with him again.",
-    "people": "Ouassini Benheddi - Production manager at Quart de lait"
+    "people": "Ouassini Benheddi",
+    "job": "Production manager at Quart de lait"
   },
   {
     "quote": "Samuel loves teaching ! it is also focused on knowledge sharing. I remember long discussions around SEO, on the meteorJS framework and JS bots. He can be trusted as a teacher!",
-    "people": "Benjamin Sansy - Studient at web@cadémie"
+    "people": "Benjamin Sansy",
+    "job": "Studient at web@cadémie"
   }
 ]
