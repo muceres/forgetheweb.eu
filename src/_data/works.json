@@ -61,5 +61,14 @@
   "buttonDesc": "Check the web app",
   "buttonLink": "https://mektoube.fr/",
   "tags": ["React"]
+},
+{
+  "title": "Altertek",
+  "subtitle": "Web development",
+  "img": "/assets/images/works/altertek-001.png",
+  "content": "It's always better when you have a work that matches with you values. And that's exactly what happens whenever I work on an Altertek project.",
+  "buttonDesc": "Check the website",
+  "buttonLink": "https://altertek.org/",
+  "tags": ["JAMstack"]
 }
 ]
