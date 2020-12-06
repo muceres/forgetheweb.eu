@@ -1,0 +1,101 @@
+[
+{
+  "title": "Sapiens: A Brief History of Humankind",
+  "subtitle": "Yuval Noah Harari",
+  "img": "/assets/images/books/sapiens.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095",
+  "tags": ["History", "Economy", "Social"]
+},
+{
+  "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+  "subtitle": "Marie Kondō",
+  "img": "/assets/images/books/the-life-changing-magic-of-tidying-up.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308",
+  "tags": ["Minimalism"]
+},
+{
+  "title": "The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)",
+  "subtitle": "Hal Elrod",
+  "img": "/assets/images/books/the-miracle-morning.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Miracle-Morning-Not-So-Obvious-Guaranteed-Transform/dp/0979019710",
+  "tags": ["Productivity", "lifestyle"]
+},
+{
+  "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+  "subtitle": "James Clear",
+  "img": "/assets/images/books/atomic-habits.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299",
+  "tags": ["Productivity"]
+},
+{
+  "title": "12 Rules for Life: An Antidote to Chaos",
+  "subtitle": "Jordan B. Peterson",
+  "img": "/assets/images/books/12-rules-for-life.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/12-Rules-Life-Antidote-Chaos/dp/0345816021",
+  "tags": ["Education"]
+},
+{
+  "title": "The Art Of War",
+  "subtitle": "Sun Tzu",
+  "img": "/assets/images/books/the-art-of-war.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772",
+  "tags": ["History", "Education"]
+},
+{
+  "title": "The Book of Five Rings",
+  "subtitle": "Miyamoto Musashi",
+  "img": "/assets/images/books/the-book-of-five-rings.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Book-Five-Rings-Miyamoto-Musashi/dp/1935785974",
+  "tags": ["History", "Education"]
+},
+{
+  "title": "Goodbye, Things: The New Japanese Minimalism",
+  "subtitle": "Fumio Sasaki",
+  "img": "/assets/images/books/goodbye-things.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Goodbye-Things-New-Japanese-Minimalism/dp/0393609030",
+  "tags": ["Lifestyle"]
+},
+{
+  "title": "Tao Te Ching",
+  "subtitle": "Lao Tzu",
+  "img": "/assets/images/books/tao-te-ching.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.fr/dp/1690029994",
+  "tags": ["Philosophy", "Education"]
+},
+{
+  "title": "On the origin of species",
+  "subtitle": "Charles Darwin",
+  "img": "/assets/images/books/on-the-origin-of-species.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/origin-species-Charles-Darwin-ebook/dp/B008478VE8",
+  "tags": ["History"]
+},
+{
+  "title": "Capital in the Twenty First Century",
+  "subtitle": "Thomas Piketty",
+  "img": "/assets/images/books/capital-twenty-century.jpg",
+  "content": "",
+  "buttonDesc": "View on amazon",
+  "buttonLink": "https://www.amazon.com/Capital-Twenty-Century-Thomas-Piketty/dp/067443000X",
+  "tags": ["History"]
+}
+]
