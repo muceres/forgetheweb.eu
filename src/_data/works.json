@@ -70,5 +70,14 @@
   "buttonDesc": "Check the website",
   "buttonLink": "https://altertek.org/",
   "tags": ["JAMstack"]
-}
+},
+{
+  "title": "Tesakura",
+  "subtitle": "Web development",
+  "img": "/assets/images/works/tesakura.png",
+  "content": "",
+  "buttonDesc": "Check the website",
+  "buttonLink": "https://tesakura.com/",
+  "tags": ["shopify"]
+},
 ]
