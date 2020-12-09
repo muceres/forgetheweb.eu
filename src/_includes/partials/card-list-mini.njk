@@ -1,0 +1,52 @@
+
+ {# <div class="row">
+<div class="card-columns">
+
+{% for work in list %}
+<div class="card" style="width: 18rem;background-color: #191a23; box-shadow: 0 0.5em 1em -0.125em rgba(220, 226, 230, .1), 0 0 0 1px rgba(220,226,230,.02);">
+  <img class="card-img-top" style="display: block;height:196px; width: 130px;margin-left: auto;margin-right: auto;" src="{{ work.img }}" alt="Card image cap">
+  <div class="card-body">
+    <h6 class="card-title" style="font-size:13px !important;">
+    {% for tag in work.tags %}
+    <span class="badge badge-pill badge-info" style="font-size: 12px;">{{ tag }}</span>
+    {% endfor %}
+  </h6>
+    <h3 class="card-title" style="font-size:13px !important;">{{ work.title }}</h3>
+    <h6 class="card-subtitle mb-2 text-muted">{{ work.subtitle }}</h6>
+    <p class="card-text">{{ work.content }}</p>
+    <p class="center">
+      <a href="{{ work.buttonLink }}" class="btn btn-primary">{{ work.buttonDesc }}</a>
+    </p>
+  </div>
+</div>
+{% endfor %}
+
+</div>
+</div> #}
+
+<div class="container">
+  <div class="row align-items-center justify-content-center">
+
+    {% for work in list %}
+    <div class="card col-sm-3" style="min-height: 500px; width: 18rem;background-color: #191a23; ">
+      <img class="card-img-top" style="display: block;height:196px; width: 130px;margin-left: auto;margin-right: auto;" src="{{ work.img }}" alt="Card image cap">
+      <div class="card-body">
+        <h6 class="card-title">
+        {% for tag in work.tags %}
+        <span class="badge badge-pill badge-info" style="font-size: 10px;">{{ tag }}</span>
+        {% endfor %}
+      </h6>
+        <h3 class="card-title" style="font-size:13px !important;">{{ work.title  | striptags(true) | truncate(50) }}</h3>
+        <h6 class="card-subtitle mb-2 text-muted">{{ work.subtitle }}</h6>
+        <p class="card-text">{{ work.content }}</p>
+        <p class="center">
+          <a href="{{ work.buttonLink }}" class="btn btn-primary">{{ work.buttonDesc }}</a>
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+
+    </div>
+
+  </div>
+</div>

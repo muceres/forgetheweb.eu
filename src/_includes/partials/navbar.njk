@@ -17,9 +17,15 @@
       <li class="nav-item">
         <a class="nav-link {{ "active" if current=="works" else "" }}" href="{{ "#" if current=="works" else "/works" }}">Works</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link {{ "active" if current=="about-me" else "" }}" href="{{ "#" if current=="about-me" else "/about-me" }}">About me</a>
-      </li>
+
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="{{ "#" if current=="about-me" else "/about-me" }}">Me</a>
+        <a class="dropdown-item" href="https://docs.saxjst.com">Best Practices for devs</a>
+        <a class="dropdown-item" href="{{ "#" if current=="great-books" else "/great-books" }}">Recommanded books</a>
+      </div>
+    </li>
       <li class="nav-item">
         <a class="nav-link {{ "active" if current=="contact" else "" }}" href="{{ "#" if current=="contact" else "/contact" }}">Contact </a>
       </li>
