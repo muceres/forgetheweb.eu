@@ -97,5 +97,14 @@
   "buttonDesc": "View on amazon",
   "buttonLink": "https://www.amazon.com/Capital-Twenty-Century-Thomas-Piketty/dp/067443000X",
   "tags": ["Economy"]
+},
+{
+  "title": "Black Skin, White Masks",
+  "subtitle": "Frantz Fanon",
+  "img": "/assets/images/books/peau-noires.jpg",
+  "content": "",
+  "buttonDesc": "View on Fnac",
+  "buttonLink": "https://livre.fnac.com/a8282157/Frantz-Fanon-Peau-noire-masques-blancs",
+  "tags": ["Racism"]
 }
 ]
