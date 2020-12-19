@@ -12,7 +12,7 @@
   "subtitle": "Against corruption and for ethics in politics",
   "img": "/assets/images/ngos/anticor.png",
   "content": "",
-  "buttonLink": "https://www.anticor.org/",
+  "buttonLink": "https://www.anticor.org",
   "tags": ["Political corruption"]
 },
 {
@@ -20,7 +20,7 @@
   "subtitle": "Aim to offer alternatives of usage and design of Information and Communication Technologies to preserve the environment",
   "img": "/assets/images/ngos/altertek.png",
   "content": "",
-  "buttonLink": "https://altertek.org/",
+  "buttonLink": "https://altertek.org",
   "tags": ["Free software"]
 },
 {
@@ -28,7 +28,7 @@
   "subtitle": "Independent food watchdog committed to fair, safe and healthy food together for consumers",
   "img": "/assets/images/ngos/foodxwatch.jpg",
   "content": "",
-  "buttonLink": "https://www.foodwatch.org/fr/",
+  "buttonLink": "https://www.foodwatch.org/fr",
   "tags": ["Alimentation"]
 },
 {
@@ -36,7 +36,7 @@
   "subtitle": "For the promotion and defense of free software in the French-speaking world",
   "img": "/assets/images/ngos/april.png",
   "content": "",
-  "buttonLink": "https://www.april.org/",
+  "buttonLink": "https://www.april.org",
   "tags": ["Free software"]
 },
 {
@@ -44,7 +44,7 @@
   "subtitle": "For the promotion and promotion of free culture and free software",
   "img": "/assets/images/ngos/frama.png",
   "content": "",
-  "buttonLink": "https://framasoft.org/",
+  "buttonLink": "https://framasoft.org",
   "tags": ["Free software"]
 },
 {
@@ -52,7 +52,7 @@
   "subtitle": "Citizen advocacy group defending civil liberties in a digital age",
   "img": "/assets/images/ngos/la-quadrature-du-net.png",
   "content": "",
-  "buttonLink": "https://www.laquadrature.net/",
+  "buttonLink": "https://www.laquadrature.net",
   "tags": ["Freedom", "Internet"]
 },
 {
@@ -68,7 +68,15 @@
   "subtitle": "Because animals are sentient beings, let's open our eyes to farms, fishing and slaughterhouses",
   "img": "/assets/images/ngos/l214.png",
   "content": "",
-  "buttonLink": "https://www.l214.com/",
+  "buttonLink": "https://www.l214.com",
+  "tags": ["Alimentation", "Animals"]
+},
+{
+  "title": "Electronic Frontier Foundation",
+  "subtitle": "Defend our civil liberties in a digital world",
+  "img": "/assets/images/ngos/eff.png",
+  "content": "",
+  "buttonLink": "https://www.eff.org",
   "tags": ["Alimentation", "Animals"]
 },
 {
@@ -76,7 +84,7 @@
   "subtitle": "Working to create a world where every human can freely share in the sum of all knowledge",
   "img": "/assets/images/ngos/wikimedia.png",
   "content": "",
-  "buttonLink": "https://www.wikimedia.fr/",
+  "buttonLink": "https://www.wikimedia.fr",
   "tags": ["Open knowledge"]
 }
 ]
