@@ -106,5 +106,14 @@
   "buttonDesc": "View on Fnac",
   "buttonLink": "https://livre.fnac.com/a8282157/Frantz-Fanon-Peau-noire-masques-blancs",
   "tags": ["Racism"]
+},
+{
+  "title": "Vous êtes fous d'avaler ça ! Un industriel de l'agro-alimentaire dénonce",
+  "subtitle": "Christophe Brusset",
+  "img": "/assets/images/books/vous-etes-fous.jpg",
+  "content": "",
+  "buttonDesc": "View on Fnac",
+  "buttonLink": "https://livre.fnac.com/a9664619/Christophe-Brusset-Vous-etes-fous-d-avaler-ca",
+  "tags": ["Food"]
 }
 ]
