@@ -3,30 +3,27 @@ layout: 'layouts/base.njk'
 title: Open Source | Samuel JOSET
 current: work
 ---
-        {% include "partials/navbar.njk" %}
 
-        <div class="main-content main-projects">
-          <div class="container space-block">
+{% include "partials/navbar.njk" %}
 
-            <div class="row">
-              <div class="col-sm-12">
-                <h2 class="title left">Latest OSS repos</h2>
-                <br />
-              </div>
+<div class="main-content main-projects">
+  <div class="container space-block">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="title left">Latest OSS repos</h2>
+        <br />
+      </div>
 
-                {% set list=oss %}
-                {% include "partials/simple-list.njk" %}
+      {% set list=oss %}
+      {% include "partials/simple-list.njk" %}
 
-              <div class="col-sm-12">
-                <p class="center">
-                  <a href="https://github.com/saxjst" class="explicit-link" rel="noopener" target="_blank">Check my other repositories
-                  </a>
-                </p>
-              </div>
+      <div class="col-sm-12">
+        <p class="center">
+          <a href="https://github.com/saxjst" class="explicit-link" rel="noopener" target="_blank">Check my other repositories</a>
+        </p>
+      </div>
 
-                  {% include "partials/social-media.njk" %}
-
-            </div>
-          </div>
-
-        </div>
+      {% include "partials/social-media.njk" %}
+    </div>
+  </div>
+</div>

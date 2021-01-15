@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/base.njk'
-title: Projets | Samuel JOSET
-current: work
+title: Vision and values | Samuel JOSET
+current: about-me
 ---
 
 {% include "partials/navbar.njk" %}
@@ -10,15 +10,14 @@ current: work
   <div class="container space-block">
     <div class="row">
       <div class="col-sm-12">
-        <h2 class="title left">Projets</h2>
-        <p>Here you can have a look on some of my company projects that weren't under non-disclosure agreement.</p>
+        <h2 class="title left">Values</h2>
+        <br/>
       </div>
-
-      {% set list=works %}
-      {% include "partials/card-list.njk" %}
+      {% set list=values %}
+      {% set minHeight=220 %}
+      {% include "partials/two-card-list-mini.njk" %}
 
       {% include "partials/social-media.njk" %}
-
     </div>
   </div>
 </div>

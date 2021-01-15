@@ -4,23 +4,23 @@ title: Great books | Samuel JOSET
 current: about-me
 ---
 
-        {% include "partials/navbar.njk" %}
+{% include "partials/navbar.njk" %}
 
-        <div class="main-content main-projects">
-          <div class="container space-block">
+<div class="main-content main-projects">
+  <div class="container space-block">
+    <div class="row">
+       <div class="col-sm-12">
+         <h2 class="title left">Recommanded books</h2>
+         <br/>
+         <p>Here I left some of the books that have made a deep impression on me. Their topics are not the same at all.  But I think what they have in common is that they have helped me to understand the world better and change the way I live in it.</p>
+         <br/>
+      </div>
 
-            <div class="row">
-              <div class="col-sm-12">
-                <h2 class="title left">Recommanded books</h2>
-                <p>Here I left some of the books that have made a deep impression on me. Their topics are not the same at all.  But I think what they have in common is that they have helped me to understand the world better and change the way I live in it.</p>
-              </div>
+      {% set list=books %}
+      {% set cardNumber=4 %}
+      {% include "partials/card-list-mini.njk" %}
 
-             {% set list=books %}
-             {% include "partials/card-list-mini.njk" %}
-
-             {% include "partials/social-media.njk" %}
-
-            </div>
-          </div>
-
-        </div>
+      {% include "partials/social-media.njk" %}
+    </div>
+  </div>
+</div>

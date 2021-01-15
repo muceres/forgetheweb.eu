@@ -4,73 +4,65 @@ title: About me | Samuel JOSET
 current: about-me
 ---
 
-        {% include "partials/navbar.njk" %}
+{% include "partials/navbar.njk" %}
 
-        <div class="main-content main-projects">
-          <div class="container space-block">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2 class="title left">About me</h2>
-                <br />
-              </div>
-              <div class="col-sm-3">
-                <img class="card-img-top" src="{{ me.image }}" alt="Card image cap">
-                <br />
-                <br />
+<div class="main-content main-projects">
+  <div class="container space-block">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 class="title left">About me</h2>
+        <br />
+      </div>
 
-              </div>
+      <div class="col-sm-3">
+        <img class="card-img-top" src="{{ me.image }}" alt="Card image cap">
+        <br />
+        <br />
+      </div>
 
-              <div class="col-sm-9">
-
-
-                <p style="margin-top: 0px;">I'm a French Back-End Software Engineer remotely working at <a class="explicit-link blue" href="https://trusk.com/">Trusk</a>. I also occasionally teach and do Freelance.
+      <div class="col-sm-9">
+        <p style="margin-top: 0px;">I'm a French Back-End Software Engineer remotely working at <a class="explicit-link blue" href="https://trusk.com/">Trusk</a>. I also occasionally teach and do Freelance.
                  I graduated from <a class="explicit-link blue" href="https://www.epitech.eu/en/">Epitech - European Institute of Information Technology</a> in Paris where I was born and raised. I recently moved in Novi Sad, Serbia.
-                </p>
-                <p>I'm fond of Javascript/Node JS. I sometimes also use Python. In general, I prefer minimalist approaches rather than over-engineered solutions. In my work, I give a lot of importance to practices like functional programming, jamstack,
+        </p>
+        <p>I'm fond of Javascript/Node JS. I sometimes also use Python. In general, I prefer minimalist approaches rather than over-engineered solutions. In my work, I give a lot of importance to practices like functional programming, jamstack,
                   unit tests, <a class="explicit-link blue" href="docs.saxjst.com">documentations</a> and <a class="explicit-link blue" href="/open source">open source</a>.</p>
-                <p style="margin-bottom: 0px;">When away from the computer, I enjoy traveling, martial arts, cooking, continuous learning and <a class="explicit-link blue" href="/recommanded-books">reading</a>.</p>
+        <p style="margin-bottom: 0px;">When away from the computer, I enjoy traveling, martial arts, cooking, continuous learning and <a class="explicit-link blue" href="/recommanded-books">reading</a>.</p>
+      </div>
 
-              </div>
+      <div class="col-sm-12">
+        <p class="center">
+          <a href="{{ me.resume }}" class="btn btn-primary">Download my CV</a>
+        </p>
+      </div>
 
-              <div class="col-sm-12">
-                <p class="center">
-                  <a href="{{ me.resume }}" class="btn btn-primary">Download my CV</a>
-                </p>
-              </div>
+      <div class="col-sm-12">
+        <h2 class="title left">References</h2>
+        <br />
+      </div>
 
+      {% set list=references %}
+      {% include "partials/image-list.njk" %}
 
+      <div class="col-sm-12">
+        <h2 class="title left">Testimonials</h2>
+        <br />
+      </div>
 
-
-              <div class="col-sm-12">
-                <h2 class="title left">References</h2>
-                <br />
-              </div>
-
-                {% set list=references %}
-                {% include "partials/image-list.njk" %}
-
-              <div class="col-sm-12">
-                <h2 class="title left">Testimonials</h2>
-                <br />
-              </div>
-
-              <div class="col-sm-10 offset-sm-1">
-                {% include "partials/carousel.njk" %}
-              </div>
+      <div class="col-sm-10 offset-sm-1">
+        {% include "partials/carousel.njk" %}
+      </div>
 
 
-              <div class="col-sm-12">
-                <h2 class="title left">Tech Stack</h2>
-                <br />
-              </div>
+      <div class="col-sm-12">
+        <h2 class="title left">Tech Stack</h2>
+        <br />
+      </div>
 
-                {% set list=stack %}
-                {% include "partials/image-list.njk" %}
+     {% set list=stack %}
+     {% include "partials/image-list.njk" %}
 
+     {% include "partials/social-media.njk" %}
 
-                  {% include "partials/social-media.njk" %}
-
-
-            </div>
-          </div>
-        </div>
+   </div>
+ </div>
+</div>
