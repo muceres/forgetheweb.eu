@@ -22,10 +22,11 @@ current: about-me
 
       <div class="col-sm-9">
         <p style="margin-top: 0px;">I'm a French Back-End Software Engineer remotely working at <a class="explicit-link blue" href="https://trusk.com/">Trusk</a>. I also occasionally teach and do Freelance.
-                 I graduated from <a class="explicit-link blue" href="https://www.epitech.eu/en/">Epitech - European Institute of Information Technology</a> in Paris where I was born and raised. I recently moved in Novi Sad, Serbia.
+                 I graduated from <a class="explicit-link blue" href="https://www.epitech.eu/en/">Epitech - European Institute of Information Technology</a> in Paris where I was born and raised.
         </p>
-        <p>I'm fond of Javascript/Node JS. I sometimes also use Python. In general, I prefer minimalist approaches rather than over-engineered solutions. In my work, I give a lot of importance to practices like functional programming, jamstack,
-                  unit tests, <a class="explicit-link blue" href="docs.saxjst.com">documentations</a> and <a class="explicit-link blue" href="/open source">open source</a>.</p>
+        <p>I have worked in <a class="explicit-link blue" href="{{ me.resume }}">various industries</a>. Learning about them as I build things that can help them is always a pleasure for me. In my work, I give a lot of importance to
+          <a class="explicit-link blue" href="/vision-and-values">what projects I work on are about and how they are made</a>.
+
         <p style="margin-bottom: 0px;">When away from the computer, I enjoy traveling, martial arts, cooking, continuous learning and <a class="explicit-link blue" href="/recommanded-books">reading</a>.</p>
       </div>
 
@@ -34,6 +35,15 @@ current: about-me
           <a href="{{ me.resume }}" class="btn btn-primary">Download my CV</a>
         </p>
       </div>
+
+      {% set list=activities %}
+      {% set minHeight=220 %}
+      {% include "partials/two-card-list-mini.njk" %}
+
+
+
+
+
 
       <div class="col-sm-12">
         <h2 class="title left">References</h2>
