@@ -41,7 +41,7 @@
   "img": "/assets/images/works/bouygues-002.png",
   "content": "",
   "buttonDesc": "See the NFC reader source code",
-  "buttonLink": "https://github.com/saxjst/desktop-nfc-reader",
+  "buttonLink": "https://github.com/muceres/desktop-nfc-reader",
   "tags": ["NodeJS", "IOT"]
 },
 {
