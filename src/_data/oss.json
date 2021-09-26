@@ -2,31 +2,31 @@
 {
   "title": "memoize-with",
   "subtitle": "Memoize a function using a custom cache and a key formatter",
-  "link": "https://github.com/saxjst/memoize-with",
+  "link": "https://github.com/muceres/memoize-with",
   "tags": ["module"]
 },
 {
   "title": "group-values-by-key",
   "subtitle": "Group values of two objects by their key",
-  "link": "https://github.com/saxjst/group-values-by-key",
+  "link": "https://github.com/muceres/group-values-by-key",
   "tags": ["module"]
 },
 {
   "title": "chain-fns",
   "subtitle": "Create a chain of responsability by chaining a list of handlers",
-  "link": "https://github.com/saxjst/chain-fns",
+  "link": "https://github.com/muceres/chain-fns",
   "tags": ["module"]
 },
 {
   "title": "deep-map-with-key",
   "subtitle": "Creates a new functor with the results of calling a provided function on every element in the calling functor and its key",
-  "link": "https://github.com/saxjst/deep-map-with-key",
+  "link": "https://github.com/muceres/deep-map-with-key",
   "tags": ["module"]
 },
 {
   "title": "koa-handler",
   "subtitle": "Easily configure your koa server",
-  "link": "https://github.com/saxjst/koa-handler",
+  "link": "https://github.com/muceres/koa-handler",
   "tags": ["module", "soon"]
 },
 {
