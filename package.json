@@ -1,5 +1,5 @@
 {
-  "name": "saxjst.com",
+  "name": "forgetheweb.eu",
   "version": "1.0.0",
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/366a7436-480c-4cd2-a6eb-4c02f0459f5b/deploy-status)](https://app.netlify.com/sites/pensive-johnson-8e7d33/deploys) > Personal website",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saxjst/saxjst.com.git"
+    "url": "git+https://github.com/muceres/forgetheweb.eu.git"
   },
   "keywords": [
     "static",
@@ -18,12 +18,12 @@
     "eleventy",
     "jamstack"
   ],
-  "author": "saxjst",
+  "author": "muceres",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saxjst/saxjst.com/issues"
+    "url": "https://github.com/muceres/forgetheweb.eu/issues"
   },
-  "homepage": "https://github.com/saxjst/saxjst.com#readme",
+  "homepage": "https://github.com/muceres/forgetheweb.eu#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "html-minifier": "^4.0.0"
