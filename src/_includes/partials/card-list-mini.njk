@@ -3,7 +3,7 @@
   <div class="row align-items-center justify-content-center">
 
     {% for item in list %}
-    <div class="card col-sm-3" style="min-height: 500px; width: 18rem;background-color: #191a23; ">
+    <div class="card col-sm-3" style="min-height: 340px; width: 18rem;background-color: #191a23; ">
       {% if item.img %}
       <img class="card-img-top" style="display: block;height:196px; width: 130px;margin-left: auto;margin-right: auto;" src="{{ item.img }}" alt="Card image cap">
       {% endif %}
@@ -13,12 +13,14 @@
         <span class="badge badge-pill badge-info" style="font-size: 10px;">{{ tag }}</span>
         {% endfor %}
       </h6>
-        <h3 class="card-title" style="font-size:13px !important;">{{ work.title  | striptags(true) | truncate(50) }}</h3>
+        <h3 class="card-title" style="font-size:13px !important;">{{ item.title  | striptags(true) | truncate(50) }}</h3>
         <h6 class="card-subtitle mb-2 text-muted">{{ item.subtitle }}</h6>
         <p class="card-text">{{ item.content }}</p>
+        {% if item.buttonDesc %}
         <p class="center">
           <a href="{{ work.buttonLink }}" class="btn btn-primary">{{ item.buttonDesc }}</a>
         </p>
+        {% endif %}
       </div>
     </div>
     {% endfor %}

@@ -27,12 +27,12 @@
   "title": "koa-handler",
   "subtitle": "Easily configure your koa server",
   "link": "https://github.com/muceres/koa-handler",
-  "tags": ["module", "soon"]
+  "tags": ["module"]
 },
 {
-  "title": "simple-video",
-  "subtitle": "A simple browser plugin to watch a streaming video without any other content",
-  "link": "https://github.com/altertek/simplevideo",
-  "tags": ["plugin", "soon"]
+  "title": "sum-of",
+  "subtitle": "returns the sum of the values of the same named property off all objects in the list supplied",
+  "link": "https://github.com/muceres/sum-of",
+  "tags": ["module"]
 }
 ]

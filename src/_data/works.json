@@ -2,25 +2,25 @@
 {
   "title": "Quard de lait",
   "subtitle": "Web development",
-  "img": "/assets/images/works/qdl-002.png",
+  "img": "/assets/images/works/qdl.webp",
   "content": "",
   "buttonDesc": "Check the website",
-  "buttonLink": "https://quartdelait.com/",
+  "buttonLink": "https://quartdelait.com",
   "tags": ["Wordpress"]
 },
 {
   "title": "Mainbase.io",
   "subtitle": "Implementing cryptocurrency exchanges API and various metrics",
-  "img": "/assets/images/works/mainbase-002.png",
+  "img": "/assets/images/works/mainbase.webp",
   "content": "",
   "buttonDesc": "Check the website",
-  "buttonLink": "https://www.mainbase.io/",
+  "buttonLink": "https://www.mainbase.io",
   "tags": ["Django", "Python"]
 },
 {
   "title": "Epitech - European Institute of Information Technology",
   "subtitle": "Teaching 3rd grade students",
-  "img": "/assets/images/works/epitech-002.jpg",
+  "img": "/assets/images/works/epitech.webp",
   "content": "There was a time when it was my school too. I just love teaching there.",
   "buttonDesc": "Read the article",
   "buttonLink": "https://forgetheweb.eu",
@@ -29,7 +29,7 @@
 {
   "title": "This card is empty !",
   "subtitle": "Want to work together ?",
-  "img": "/assets/images/works/empty-002.jpg",
+  "img": "/assets/images/works/empty.webp",
   "content": "",
   "buttonDesc": "Here we go !",
   "buttonLink": "https://forgetheweb.eu/contact",
@@ -38,7 +38,7 @@
 {
   "title": "Bouygues - NFC wristbands on site",
   "subtitle": "Data centralization and interfacing with devices using NFC wristbands",
-  "img": "/assets/images/works/bouygues-002.png",
+  "img": "/assets/images/works/bouygues.webp",
   "content": "",
   "buttonDesc": "See the NFC reader source code",
   "buttonLink": "https://github.com/muceres/desktop-nfc-reader",
@@ -47,7 +47,7 @@
 {
   "title": "TF1 - Koh-Lanta VR",
   "subtitle": "VR game development",
-  "img": "/assets/images/works/koh-lanta-vr-002.jpg",
+  "img": "/assets/images/works/koh-lanta-vr.webp",
   "content": "",
   "buttonDesc": "Read the article",
   "buttonLink": "https://www.lci.fr/high-tech/vivatech-2017-esport-realite-virtuelle-et-innovations-au-lab-tf1-2052491.html",
@@ -56,28 +56,37 @@
 {
   "title": "Mektoube",
   "subtitle": "Mobile web app development",
-  "img": "/assets/images/works/mektoube-002.png",
+  "img": "/assets/images/works/mektoube.webp",
   "content": "I was always curious to know what was behind dating apps. Sure I wasn't disapointed !",
   "buttonDesc": "Check the web app",
-  "buttonLink": "https://mektoube.fr/",
+  "buttonLink": "https://mektoube.fr",
   "tags": ["React"]
 },
 {
   "title": "Altertek",
   "subtitle": "Web development",
-  "img": "/assets/images/works/altertek-001.png",
+  "img": "/assets/images/works/altertek.webp",
   "content": "It's always better when you have a work that matches with you values. And that's exactly what happens whenever I work on an Altertek project.",
   "buttonDesc": "Check the website",
-  "buttonLink": "https://altertek.org/",
+  "buttonLink": "https://altertek.org",
   "tags": ["JAMstack"]
 },
 {
   "title": "Tesakura",
   "subtitle": "Web development",
-  "img": "/assets/images/works/tesakura.png",
+  "img": "/assets/images/works/tesakura.webp",
   "content": "",
   "buttonDesc": "Check the website",
-  "buttonLink": "https://tesakura.com/",
+  "buttonLink": "https://tesakura.com",
   "tags": ["shopify"]
+},
+{
+  "title": "Ameublements discount",
+  "subtitle": "Web development",
+  "img": "/assets/images/works/ameublementsdiscount.webp",
+  "content": "",
+  "buttonDesc": "Check the website",
+  "buttonLink": "https://ameublementsdiscount.com",
+  "tags": ["wix"]
 }
 ]

@@ -1,10 +1,10 @@
 [
-  { "link": "/assets/images/stack/nodejs-logo.svg.png"},
-  { "link": "/assets/images/stack/ts-logo.png"},
-  { "link": "/assets/images/stack/reactjs-logo.png"},
-  { "link": "/assets/images/stack/python-logo.png"},
-  { "link": "/assets/images/stack/django-logo.png"},
-  { "link": "/assets/images/stack/docker-logo.png"},
-  { "link": "/assets/images/stack/mysql-logo.png"},
-  { "link": "/assets/images/stack/mongodb-logo.png"}
+  { "link": "/assets/images/stack/nodejs-logo.webp"},
+  { "link": "/assets/images/stack/ts-logo.webp"},
+  { "link": "/assets/images/stack/reactjs-logo.webp"},
+  { "link": "/assets/images/stack/python-logo.webp"},
+  { "link": "/assets/images/stack/django-logo.webp"},
+  { "link": "/assets/images/stack/docker-logo.webp"},
+  { "link": "/assets/images/stack/mysql-logo.webp"},
+  { "link": "/assets/images/stack/mongodb-logo.webp"}
 ]
