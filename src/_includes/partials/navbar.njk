@@ -6,7 +6,7 @@
   </div>
 
 
-<button id="toggler" class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+<button id="toggler" class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
   <span class="navbar-toggler-icon"></span>
 </button>
 
@@ -14,7 +14,7 @@
   <div class="collapse navbar-collapse navbar-right" id="navbarCollapse">
     <ul class="nav navbar-nav">
     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle {{ "active" if current=="work" else "" }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work</a>
+        <a class="nav-link dropdown-toggle {{ "active" if current=="work" else "" }}"  data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="{{ "#" if current=="projets" else "/projets" }}">Projets</a>
           <a class="dropdown-item" href="{{ "#" if current=="open-source" else "/open-source" }}">Open source</a>
@@ -23,7 +23,7 @@
     </li>
 
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle  {{ "active" if current=="about-me" else "" }}" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About me</a>
+      <a class="nav-link dropdown-toggle  {{ "active" if current=="about-me" else "" }}" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About me</a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="{{ "#" if current=="vision-and-values" else "/vision-and-values" }}">Vision x Values</a>
         <a class="dropdown-item" href="{{ "#" if current=="me" else "/me" }}">Me</a>

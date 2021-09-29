@@ -4,8 +4,9 @@
   "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/366a7436-480c-4cd2-a6eb-4c02f0459f5b/deploy-status)](https://app.netlify.com/sites/pensive-johnson-8e7d33/deploys) > Personal website",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy && npm run minify:html",
+    "build": "npx @11ty/eleventy && npm run minify:html && npm run minify:css",
     "serve": "npx @11ty/eleventy --serve",
+    "minify:css": "npx purifycss dist/assets/css/bootstrap.css dist/assets/css/fork-awesome.css dist/assets/css/style.css  dist/**/*.html dist/*.html -w .collapsing .collapse .fade .dropdown-menu.show .carousel-indicators .carousel-fade .carousel-item-next .carousel-item-prev  .active.carousel-item-end .active.carousel-item-start --min --info --out dist/assets/css/all.min.css",
     "minify:html": "mv dist/assets assets && npx html-minifier --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true  --input-dir dist --output-dir dist && mv assets dist/assets"
   },
   "repository": {

@@ -2,9 +2,6 @@
  *  muceres personnal website theme by @muceres - https://forgetheweb.eu
  *  License - MIT License
  */
-@import url(https://fonts.googleapis.com/css?family=Nunito:400);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400, 400light);
-@import url(https://fonts.googleapis.com/css?family=Gothic+A1:400);
 
 p,
 h1,
@@ -139,12 +136,6 @@ span {
   position: relative;
 }
 
-/* .main img {
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
 .main-content {
   position: relative;
   z-index: 10;
@@ -203,7 +194,7 @@ span {
 }
 
 .active {
-  color: #4285f4;
+  color: #4285f4 !important;
 }
 
 .active:hover {
@@ -275,7 +266,7 @@ blockquote,  {
 }
 blockquote .citation:before {
     content: "\f10d";
-    font-family: 'Fontawesome';
+    font-family: 'Forkawesome';
     float: left;
     margin-right: 10px;
     color: #4285f4;
@@ -332,4 +323,8 @@ blockquote .citation:before {
   .main-content h2 {
     font-size: 20px;
   }
+}
+
+.nav-link {
+  color: #ffffff;
 }

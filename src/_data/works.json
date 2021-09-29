@@ -18,15 +18,6 @@
   "tags": ["Django", "Python"]
 },
 {
-  "title": "Epitech - European Institute of Information Technology",
-  "subtitle": "Teaching 3rd grade students",
-  "img": "/assets/images/works/epitech.webp",
-  "content": "There was a time when it was my school too. I just love teaching there.",
-  "buttonDesc": "Read the article",
-  "buttonLink": "https://forgetheweb.eu",
-  "tags": ["Teaching"]
-},
-{
   "title": "This card is empty !",
   "subtitle": "Want to work together ?",
   "img": "/assets/images/works/empty.webp",

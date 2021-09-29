@@ -1,23 +1,23 @@
-
-
-<div class="card-columns">
-
+<div class="row row-cols-1 row-cols-md-3 g-4">
 {% for work in list %}
-<div class="card" style="background-color: #191a23; box-shadow: 0 0.5em 1em -0.125em rgba(220, 226, 230, .1), 0 0 0 1px rgba(220,226,230,.02);">
-  <img class="card-img-top" src="{{ work.img }}" alt="Card image cap">
-  <div class="card-body">
-    <h3 class="card-title">{{ work.title }}
-    {% for tag in work.tags %}
-    <span class="badge badge-pill badge-info" style="font-size: 12px;">{{ tag }}</span>
-    {% endfor %}
-    </h3>
+  <div class="col">
+    <div class="card h-100" style="background-color: #191a23;">
+    <img class="card-img-top" src="{{ work.img }}" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">{{ work.title }}
+        {% for tag in work.tags %}
+        <span class="badge rounded-pill bg-info" style="font-size: 12px;">{{ tag }}</span>
+        {% endfor %}
+        </h3>
+        <br />
     <h6 class="card-subtitle mb-2 text-muted">{{ work.subtitle }}</h6>
-    <p class="card-text">{{ work.content }}</p>
-    <p class="center">
-      <a href="{{ work.buttonLink }}" class="btn btn-primary">{{ work.buttonDesc }}</a>
-    </p>
+    <br />
+        <p class="card-text">{{ work.content }}</p>
+        <p class="center">
+          <a href="{{ work.buttonLink }}" class="btn btn-primary">{{ work.buttonDesc }}</a>
+        </p>
+      </div>
+    </div>
   </div>
-</div>
 {% endfor %}
-
 </div>
