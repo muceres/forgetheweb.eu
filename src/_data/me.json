@@ -1,12 +1,9 @@
 {
-
     "name": "Samuel JOSET",
     "image" : "/assets/images/me/me.webp",
     "email": "samuel@forgetheweb.eu",
     "url": "https://example.com/about-me",
     "linkedin": "https://fr.linkedin.com/in/samueldjoset",
     "github": "https://github.com/muceres",
-    "resume": "https://drive.google.com/file/d/1voDLLccBBt2vMqsTSpXcz9WYO2tOwlXq/view?usp=sharing",
-    "blog": "https://blog.forgetheweb.eu"
-
+    "resume": "/assets/files/samuel-joset_cv.pdf"
 }
