@@ -1,11 +1,82 @@
 [
-{
-  "title": "Sapiens: A Brief History of Humankind",
-  "subtitle": "Yuval Noah Harari",
-  "img": "/assets/images/books/sapiens.webp",
-  "content": "",
-  "tags": ["History", "Economy", "Social"]
-},
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "subtitle": "Yuval Noah Harari",
+    "img": "/assets/images/books/sapiens.webp",
+    "content": "",
+    "tags": ["History", "Economy", "Social"]
+  },
+  {
+    "title": "Meditations",
+    "subtitle": "Marcus Aurelius",
+    "img": "/assets/images/books/pensees-pour-moi-meme.webp",
+    "content": "",
+    "tags": ["Lifestyle"]
+  },
+  {
+    "title": "The Art Of War",
+    "subtitle": "Sun Tzu",
+    "img": "/assets/images/books/the-art-of-war.webp",
+    "content": "",
+    "tags": ["History", "Education"]
+  },
+  {
+    "title": "The Book of Five Rings",
+    "subtitle": "Miyamoto Musashi",
+    "img": "/assets/images/books/the-book-of-five-rings.webp",
+    "content": "",
+    "tags": ["History", "Education"]
+  },
+  {
+    "title": "On the origin of species",
+    "subtitle": "Charles Darwin",
+    "img": "/assets/images/books/on-the-origin-of-species.webp",
+    "content": "",
+    "tags": ["History"]
+  },
+  {
+    "title": "Animal Farm",
+    "subtitle": "George Orwell",
+    "img": "/assets/images/books/la-ferme-des-animaux.webp",
+    "content": "",
+    "tags": ["Politics"]
+  },
+
+  {
+    "title": "1984",
+    "subtitle": "George Orwell",
+    "img": "/assets/images/books/1984.webp",
+    "content": "",
+    "tags": ["Politics", "Dystopian"]
+  },
+  {
+    "title": "Black Skin, White Masks",
+    "subtitle": "Frantz Fanon",
+    "img": "/assets/images/books/peau-noires.webp",
+    "content": "",
+    "tags": ["Colonialism"]
+  },
+  {
+    "title": "The prince",
+    "subtitle": "Nicolas Machiavel",
+    "img": "/assets/images/books/le-prince.webp",
+    "content": "",
+    "tags": ["Politics"]
+  },
+  {
+    "title": "Tao Te Ching",
+    "subtitle": "Lao Tzu",
+    "img": "/assets/images/books/tao-te-ching.webp",
+    "content": "",
+    "tags": ["Philosophy", "Education"]
+  },
+  {
+    "title": "12 Rules for Life: An Antidote to Chaos",
+    "subtitle": "Jordan B. Peterson",
+    "img": "/assets/images/books/12-rules-for-life.webp",
+    "content": "",
+    "tags": ["Education"]
+  },
 {
   "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
   "subtitle": "Marie Kondō",
@@ -21,47 +92,13 @@
   "tags": ["Productivity"]
 },
 {
-  "title": "12 Rules for Life: An Antidote to Chaos",
-  "subtitle": "Jordan B. Peterson",
-  "img": "/assets/images/books/12-rules-for-life.webp",
-  "content": "",
-  "tags": ["Education"]
-},
-{
-  "title": "The Art Of War",
-  "subtitle": "Sun Tzu",
-  "img": "/assets/images/books/the-art-of-war.webp",
-  "content": "",
-  "tags": ["History", "Education"]
-},
-{
-  "title": "The Book of Five Rings",
-  "subtitle": "Miyamoto Musashi",
-  "img": "/assets/images/books/the-book-of-five-rings.webp",
-  "content": "",
-  "tags": ["History", "Education"]
-},
-{
   "title": "Goodbye, Things: The New Japanese Minimalism",
   "subtitle": "Fumio Sasaki",
   "img": "/assets/images/books/goodbye-things.webp",
   "content": "",
   "tags": ["Lifestyle"]
 },
-{
-  "title": "Tao Te Ching",
-  "subtitle": "Lao Tzu",
-  "img": "/assets/images/books/tao-te-ching.webp",
-  "content": "",
-  "tags": ["Philosophy", "Education"]
-},
-{
-  "title": "On the origin of species",
-  "subtitle": "Charles Darwin",
-  "img": "/assets/images/books/on-the-origin-of-species.webp",
-  "content": "",
-  "tags": ["History"]
-},
+
 {
   "title": "Capital in the Twenty First Century",
   "subtitle": "Thomas Piketty",
@@ -69,13 +106,7 @@
   "content": "",
   "tags": ["Economy"]
 },
-{
-  "title": "Black Skin, White Masks",
-  "subtitle": "Frantz Fanon",
-  "img": "/assets/images/books/peau-noires.webp",
-  "content": "",
-  "tags": ["Colonialism"]
-},
+
 {
   "title": "Vous êtes fous d'avaler ça ! Un industriel de l'agro-alimentaire dénonce",
   "subtitle": "Christophe Brusset",

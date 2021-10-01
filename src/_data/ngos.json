@@ -2,18 +2,10 @@
 {
   "title": "Zero Waste France",
   "subtitle": "Designing waste out of the system with the involvement of citizens, municipalities, decision-makers and companies",
-  "img": "/assets/images/ngos/zerowaste.webp",
+  "img": "/assets/images/ngos/zwf.webp",
   "content": "",
   "buttonLink": "https://www.zerowastefrance.org",
   "tags": ["Zero waste", "Education"]
-},
-{
-  "title": "Anticor",
-  "subtitle": "Against corruption and for ethics in politics",
-  "img": "/assets/images/ngos/anticor.webp",
-  "content": "",
-  "buttonLink": "https://www.anticor.org",
-  "tags": ["Political corruption"]
 },
 {
   "title": "Altertek",
@@ -26,7 +18,7 @@
 {
   "title": "Foodwatch France",
   "subtitle": "Independent food watchdog committed to fair, safe and healthy food together for consumers",
-  "img": "/assets/images/ngos/foodxwatch.webp",
+  "img": "/assets/images/ngos/food.svg",
   "content": "",
   "buttonLink": "https://www.foodwatch.org/fr",
   "tags": ["Alimentation"]
@@ -34,15 +26,15 @@
 {
   "title": "April",
   "subtitle": "For the promotion and defense of free software in the French-speaking world",
-  "img": "/assets/images/ngos/april.webp",
+  "img": "/assets/images/ngos/april.svg",
   "content": "",
   "buttonLink": "https://www.april.org",
   "tags": ["Free software"]
 },
 {
   "title": "Framasoft",
-  "subtitle": "For the promotion and promotion of free culture and free software",
-  "img": "/assets/images/ngos/frama.webp",
+  "subtitle": "For the promotion of free culture and free software",
+  "img": "/assets/images/ngos/frama.svg",
   "content": "",
   "buttonLink": "https://framasoft.org",
   "tags": ["Free software"]
@@ -50,7 +42,7 @@
 {
   "title": "La Quadrature du Net",
   "subtitle": "Citizen advocacy group defending civil liberties in a digital age",
-  "img": "/assets/images/ngos/la-quadrature-du-net.webp",
+  "img": "/assets/images/ngos/lqdn.svg",
   "content": "",
   "buttonLink": "https://www.laquadrature.net",
   "tags": ["Freedom", "Internet"]

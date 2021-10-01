@@ -328,3 +328,7 @@ blockquote .citation:before {
 .nav-link {
   color: #ffffff;
 }
+
+.card {
+  border-radius: .0rem;
+}

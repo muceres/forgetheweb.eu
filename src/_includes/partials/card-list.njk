@@ -2,7 +2,7 @@
 {% for work in list %}
   <div class="col">
     <div class="card h-100" style="background-color: #191a23;">
-    <img class="card-img-top" src="{{ work.img }}" alt="Card image cap">
+    <img  src="{{ work.img }}" alt="{{ work.title }}">
       <div class="card-body">
         <h3 class="card-title">{{ work.title }}
         {% for tag in work.tags %}
