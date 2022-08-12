@@ -1,0 +1,8 @@
+- Desktop tools
+  - [Sublime Text](https://www.sublimetext.com): Text editor
+  - [Sublime Merge](https://www.sublimemerge.com): Interactive process viewer
+  - [Atom](https://atom.io): hackable text editors
+  - [KeePassXC](https://docs.docker.com/compose): Cross-Platform Password Manager
+  - [Firefox](https://www.mozilla.org/fr/firefox/new): Web browser
+  - [Deluge](https://www.deluge-torrent.org): Lightweight BitTorrent client
+  - [Libre Office](https://www.libreoffice.org): Powerful and free office suite

@@ -1,0 +1,9 @@
+- CLI tools
+  - [git](https://git-scm.com): Distributed version control system
+  - [htop](https://htop.dev): Interactive process viewer
+  - [docker-ce](https://www.docker.com/products/container-runtime): Providing a standardized packaging format for diverse applications
+  - [docker-compose](https://docs.docker.com/compose): Defining and running multi-container Docker applications
+  - [curl](https://curl.se): Transferring data with URLs
+  - [httpie](https://httpie.io): User-friendly command-line HTTP client
+  - [ngrok](https://ngrok.com): Quick public URLs for testing
+  - [emacs (Terminal)](https://www.gnu.org/software/emacs): Text editor
